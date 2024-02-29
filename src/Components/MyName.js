@@ -3,7 +3,7 @@ function MyName(){
     return(
         <div>
             
-            <h1>Hello Abdirahman</h1>
+            <h1>Hello Alex</h1>
        
         </div>
     );
