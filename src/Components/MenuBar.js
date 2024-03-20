@@ -8,7 +8,7 @@ const MenuBar = () => {
         <li><a href="/about">About</a></li>
         <li><a href="/services">Services</a></li>
         <li><a href="/contact">Contact</a></li>
-        <li><a href="/video">video</a></li>
+        <li><a href="/AddTwoNumbers">video</a></li>
         <li><a href="/AddNumber">student info</a></li>
         <li><a href="/Login">Login</a></li>
         <li><a href="/RegistrationForm">Registration</a></li>

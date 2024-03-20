@@ -13,6 +13,7 @@ import './App.css';
 import Header from "./Container/Header";
 import AddNumber from "./Container/AddNumber";
 import RegisterStudent from './Container/RegisterStudent';
+import AddTwoNumbers from './Container/AddTwoNumbers';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path ="/services"element={<Message/>}/>
+          <Route path = "/AddTwoNumbers" element ={<AddTwoNumbers />}/>
           <Route path = "/AddNumber" element={<AddNumber/>}/>
           <Route path="/Login" element={<Login />} />
           <Route path="/RegistrationForm" element={<RegistrationForm/>}/>
