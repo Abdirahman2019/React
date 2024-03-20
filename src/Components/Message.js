@@ -3,7 +3,7 @@ import { Component } from "react";
 const name = "Abdirahman"
 class Message extends Component{
     render(){
-        return <h1>This is class component {this.props.messageCode}</h1>
+        return <h1>Welcome to our service our dear {name}</h1>
     }
 }
 export default Message;

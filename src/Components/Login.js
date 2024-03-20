@@ -1,16 +1,16 @@
 import './style.css';
-function LoginForm(){
+function Login(){
     return(
-<div className='form'>
+<div className='form1'>
      <div className="Form-body">
-    <label className="form__form1" for="LOGIN FORM">LOGIN FORM</label>
+    <label for="LOGIN FORM">LOGIN FORM</label>
         
         <div className="email">
-            <label className="form__label" for="firstName">Email:</label>
+            <label for="firstName">Email:</label>
             <input type="text" name="lname" placeholder="email"></input>
         </div>
         <div className="password">
-            <label className="form__label" for="firstName">password:</label>
+            <label  for="firstName">password:</label>
             <input type="password" name="lname" placeholder="password"></input>
         </div><br/>
         <div className="footer">
@@ -20,4 +20,4 @@ function LoginForm(){
 </div>
     );
 }
-export default LoginForm;
+export default Login;

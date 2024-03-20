@@ -1,0 +1,45 @@
+.form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e8e2e2;
+    font-family: Arial, sans-serif;
+    border-radius: 3rem;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+}
+
+.form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

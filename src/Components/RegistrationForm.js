@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
-import './style.css'
+//import './style.css'
 function RegistrationForm() {
     return(
-      <div className="form">
+      <div className="form1">
+         <h2>REGISTRATION FORM:</h2>
           <div className="form-body">
               <div className="username">
                   <label className="form__label" for="firstName">First Name </label>
@@ -14,7 +15,7 @@ function RegistrationForm() {
               </div>
               <div className="email">
                   <label className="form__label" for="email">Email </label>
-                  <input  type="email" id="email" className="form__input" placeholder="Email"/>
+                  <input  type="text" id="email" className="form__input" placeholder="Email"/>
               </div>
               <div className="password">
                   <label className="form__label" for="password">Password </label>
