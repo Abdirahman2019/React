@@ -1,9 +1,7 @@
 import React from "react";
+const Find = () =>{
 return(
-    <p>Hello this is find page</p>
+    <p><strong>Coming soon!!!!</strong></p>
 )
-
-
-
-
+}
 export default Find;

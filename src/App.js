@@ -14,6 +14,7 @@ import Header from "./Container/Header";
 import AddNumber from "./Container/AddNumber";
 import RegisterStudent from './Container/RegisterStudent';
 import AddTwoNumbers from './Container/AddTwoNumbers';
+import Find from './Components/Find';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path = "/AddTwoNumbers" element ={<AddTwoNumbers />}/>
           <Route path = "/AddNumber" element={<AddNumber/>}/>
           <Route path="/Login" element={<Login />} />
+          <Route path="/Find" element= {<Find />} />
           <Route path="/RegistrationForm" element={<RegistrationForm/>}/>
         </Routes>
       </div>
