@@ -1,7 +1,15 @@
 import React from "react";
 const Find = () =>{
 return(
-    <p><strong>Coming soon!!!!</strong></p>
+    <nav>
+        <ul>
+            <p>shopping List</p>
+            <ol>Milk</ol>
+            <ol>Sugar</ol>
+            
+        </ul>
+
+    </nav>
 )
 }
 export default Find;
