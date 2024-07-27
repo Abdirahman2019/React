@@ -39,7 +39,7 @@ function App() {
     </Router>
       </main>
       <footer className="footer">
-        <p>&copy; 2024 Buxowbusinessltd.com, All rights reserved.</p>
+        <p> ©2024 Buxowbusinessltd.com, All rights reserved.</p>
       </footer>
     </div>
    
